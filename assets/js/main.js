@@ -52,6 +52,7 @@
    * Activate/show sections on load with hash links
    */
   window.addEventListener('load', () => {
+    portfolio();
     if (window.location.hash) {
       let initial_nav = select(window.location.hash)
 
@@ -94,6 +95,12 @@
       }
     })
   }
+
+
+  
+
+
+
 
   /**
    * Testimonials slider
@@ -191,3 +198,99 @@
   new PureCounter();
 
 })()
+
+
+function portfolio(){
+  var portData = [
+      {
+        img: 'assets/img/portfolio/passagens.png',
+        name: 'Passagens e Milhas',
+        description: 'Landing Page para agência de assessoria de viagem a fim de atrair novos clientes',
+        link: 'https://passagensemilhas.com.br/'
+      },
+      {
+          img: 'assets/img/portfolio/hlo.png',
+          name: 'HLO Therapy',
+          description: 'Web site moderno e responsivo para atrair novos alunos para o centro de treinamento',
+          link: 'https://hlotherapy.com.br'
+      },
+      
+      {
+          img: 'assets/img/portfolio/prestes.png',
+          name: 'Construtora Prestes',
+          description: 'Web Site para venda de apartamentos na planta pela construtora Prestes e controle interno.',
+          link: 'https://www.prestes.com/'
+      },
+      {
+        img: 'assets/img/portfolio/campeoes.png',
+        name: 'Fábrica de campeões',
+        description: 'Web site moderno e responsivo para atrair novos alunos para o dojô',
+        link: 'https://www.eaglestore.net.br/dojo'
+      },
+      {
+          img: 'assets/img/portfolio/eagles.png',
+          name: 'Eagles Store',
+          description: 'Exposição de produtos com foco em SEO se tornando o head do google para venda de artigos de judô na cidade',
+          link: 'https://www.eaglestore.net.br/'
+      },
+      {
+          img: 'assets/img/portfolio/gatefy.png',
+          name: 'Gatefy',
+          description: 'Sistema com Inteligência artificial de segurança de email para empresas',
+          link: 'https://gatefy.com/pt-br/'
+      },
+      {
+          img: 'assets/img/portfolio/mk.png',
+          name: 'MKBank',
+          description: 'Banco digital completo com tecnologias de ponta como blockchain.',
+          link: 'https://www.mkbank.com.br/mk-pt/'
+      },
+      {
+          img: 'assets/img/portfolio/vantage.png',
+          name: 'Vantage IoT',
+          description: 'Monitoramento de transportadores de minério evitando incêndios florestais catastróficos salvando muitas vidas.',
+          link: 'https://superior-ind.com/vantage/'
+      },
+      
+      {
+        img: 'assets/img/portfolio/pousadacma.png',
+        name: 'Pousada CMA',
+        description: 'Landing Page para pousada em São Paulo para atrair novos hóspedes',
+        link: 'https://pousadacma.com.br/'
+      },
+      {
+        img: 'assets/img/portfolio/santaostra.png',
+        name: 'Santa Ostra',
+        description: 'Landing Page para empresa de venda e transporte de frutos do mar para atrair novos clientes',
+        link: 'https://santaostra.com.br/'
+      },
+  ];
+
+  var portWrapper = document.getElementById('portfolio-wrapper');
+
+  for (data of portData) {
+    portWrapper.innerHTML += `
+
+        <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="cursor: context-menu;">
+          <div class="portfolio-wrap">
+            <img src="${data.img}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>${data.name}</h4>
+              <p class="m-lg-4 m-2">${data.description}</p>
+              <div class="portfolio-links">
+                <a style="font-size: 15px;" class="mt-2 p-2 btn btn-transparent border" href="${data.link}" target="blank" title="Portfolio Details"><i class="bx bx-link"></i> Visitar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+    
+    `;
+  }
+
+
+
+
+}
+
