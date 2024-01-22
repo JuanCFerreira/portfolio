@@ -8,6 +8,52 @@
 (function() {
   "use strict";
 
+  
+function uianimated() {
+  var uianimateds = document.querySelectorAll('.uianimated');
+
+  for (var i = 0; i < uianimateds.length; i++) {
+    var windowheight = window.innerHeight;
+    var uianimatedtop = uianimateds[i].getBoundingClientRect().top;
+    var uianimatedpoint = 40;
+
+    if (uianimatedtop < windowheight - uianimatedpoint) {
+      uianimateds[i].classList.add('active');
+    } else {
+      uianimateds[i].classList.remove('active');
+    }
+  }
+}
+
+function onPageload() {
+  uianimated();
+  window.addEventListener('scroll', uianimated);
+}
+
+window.addEventListener('load', onPageload);
+
+  $(document).ready(function () {
+    const texts = [
+      "Engenheiro de software",
+      "Web Designer",
+      "Arquiteto de software",
+      "Cientista de dados",
+      "Especialista em AI",
+      "Desenvolvedor IoT"
+    ];
+
+    const options = {
+      strings: texts,
+      typeSpeed: 40,
+      backSpeed: 20,
+      backDelay: 1500,
+      startDelay: 0,
+      loop: true,
+    };
+
+    const typed = new Typed('#text', options);
+  });
+
   /**
    * Easy selector helper function
    */
@@ -216,10 +262,22 @@ function portfolio(){
       },
       
       {
+        img: 'assets/img/portfolio/eugenio.png',
+        name: 'Eugenio Campos Jewels',
+        description: 'E-commerce de alto faturamento para venda online de jóias diversas em Portugal e região',
+        link: 'https://www.eugeniocamposjewels.com/'
+      },
+      {
           img: 'assets/img/portfolio/prestes.png',
           name: 'Construtora Prestes',
           description: 'Web Site para venda de apartamentos na planta pela construtora Prestes e controle interno.',
           link: 'https://www.prestes.com/'
+      },
+      {
+        img: 'assets/img/portfolio/onwine.png',
+        name: 'OnWine',
+        description: 'E-commerce de alto faturamento para venda online de vinhos diversos em Portugal e região',
+        link: 'https://onwine.pt/'
       },
       {
         img: 'assets/img/portfolio/campeoes.png',
@@ -264,6 +322,7 @@ function portfolio(){
         description: 'Landing Page para empresa de venda e transporte de frutos do mar para atrair novos clientes',
         link: 'https://santaostra.com.br/'
       },
+      
   ];
 
   var portWrapper = document.getElementById('portfolio-wrapper');
@@ -271,9 +330,20 @@ function portfolio(){
   for (data of portData) {
     portWrapper.innerHTML += `
 
-        <div class="col-lg-6 col-md-6 portfolio-item filter-app" style="cursor: context-menu;">
+        <div class="col-lg-6 col-md-6 portfolio-item filter-app  uianimated delay-200" style="cursor: context-menu;">
           <div class="portfolio-wrap">
-            <img src="${data.img}" class="img-fluid" alt="">
+
+            <div class="container">
+            <div class="laptop">
+                <div class="laptop__screen">
+                    <img src="${data.img}" width="1600" height="1000" alt="Screen">
+                </div>
+                <div class="laptop__bottom">
+                    <div class="laptop__under"></div>
+                </div>
+                <div class="laptop__shadow"></div>
+            </div>
+        </div>
             <div class="portfolio-info">
               <h4>${data.name}</h4>
               <p class="m-lg-4 m-2">${data.description}</p>
@@ -293,4 +363,6 @@ function portfolio(){
 
 
 }
+
+
 
