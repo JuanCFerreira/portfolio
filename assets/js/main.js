@@ -249,115 +249,91 @@ window.addEventListener('load', onPageload);
 function portfolio(){
   var portData = [
       {
-        img: 'assets/img/portfolio/passagens.png',
+        img: 'assets/img/new-portfolio/1.png',
         name: 'Passagens e Milhas',
-        description: 'Landing Page para agência de assessoria de viagem a fim de atrair novos clientes',
+        description: 'Esta Landing Page foi cuidadosamente projetada para oferecer uma experiência envolvente e informativa aos visitantes, representando a agência de assessoria de viagens de forma excepcional. Com um design moderno e intuitivo, o objetivo principal era atrair novos clientes ao destacar os serviços e benefícios exclusivos oferecidos pela agência.',
         link: 'https://passagensemilhas.com.br/'
       },
       {
-          img: 'assets/img/portfolio/hlo.png',
+          img: 'assets/img/new-portfolio/3.png',
           name: 'HLO Therapy',
-          description: 'Web site moderno e responsivo para atrair novos alunos para o centro de treinamento',
+          description: 'Utilizando uma abordagem de design contemporâneo, o site foi meticulosamente projetado para cativar o público-alvo, oferecendo uma experiência de navegação intuitiva e envolvente. Com uma combinação de elementos visuais impactantes, layouts elegantes e uma paleta de cores vibrantes, o site transmite energia e vitalidade, refletindo fielmente a atmosfera estimulante da HLO Therapy.  O site conta também com um painel administrativo intuitivo para gerir os preços, horários e todo conteúdo do site',
           link: 'https://hlotherapy.com.br'
       },
+      {
+        img: 'assets/img/new-portfolio/8.png',
+        name: 'Pereira Advocacia',
+        description: 'Com design profissional e navegação simplificada, o site visa destacar a expertise da empresa e facilitar o acesso a serviços jurídicos. Além disso, apresenta um blog informativo, oferecendo insights jurídicos relevantes e atualizados. O site fortalece a presença online da Pereira Advocacia como referência no ramo jurídico, combinando conteúdo de qualidade com uma experiência de usuário envolvente.',
+        link: 'https://douglaspereira.adv.br'
+      },
+      {
+        img: 'assets/img/new-portfolio/5.png',
+        name: 'Mantoan Serviços',
+        description: 'O site destaca a experiência e a qualidade dos serviços oferecidos. Além disso, apresenta informações detalhadas sobre os serviços prestados e os padrões de segurança adotados. Este website reforça a reputação da Mantoan Serviços como líder no setor, oferecendo uma plataforma confiável para clientes em potencial.',
+        link: 'https://mantoanservicos.com.br/'
+      },
       
       {
-        img: 'assets/img/portfolio/eugenio.png',
-        name: 'Eugenio Campos Jewels',
-        description: 'E-commerce de alto faturamento para venda online de jóias diversas em Portugal e região',
-        link: 'https://www.eugeniocamposjewels.com/'
-      },
-      {
-          img: 'assets/img/portfolio/prestes.png',
-          name: 'Construtora Prestes',
-          description: 'Web Site para venda de apartamentos na planta pela construtora Prestes e controle interno.',
-          link: 'https://www.prestes.com/'
-      },
-      {
-        img: 'assets/img/portfolio/onwine.png',
-        name: 'OnWine',
-        description: 'E-commerce de alto faturamento para venda online de vinhos diversos em Portugal e região',
-        link: 'https://onwine.pt/'
-      },
-      {
-        img: 'assets/img/portfolio/campeoes.png',
+        img: 'assets/img/new-portfolio/2.png',
         name: 'Fábrica de campeões',
-        description: 'Web site moderno e responsivo para atrair novos alunos para o dojô',
+        description: 'Com design dinâmico e informações claras sobre horários e programas, o site visa atrair novos alunos destacando os benefícios do judô e o ambiente acolhedor do dojô. Uma ferramenta eficaz para impulsionar o crescimento e fortalecer a reputação da academia.  O site conta também com um painel administrativo intuitivo para gerir o conteúdo do site',
         link: 'https://www.eaglestore.net.br/dojo'
       },
-      {
-          img: 'assets/img/portfolio/eagles.png',
-          name: 'Eagles Store',
-          description: 'Exposição de produtos com foco em SEO se tornando o head do google para venda de artigos de judô na cidade',
-          link: 'https://www.eaglestore.net.br/'
-      },
-      {
-          img: 'assets/img/portfolio/gatefy.png',
-          name: 'Gatefy',
-          description: 'Sistema com Inteligência artificial de segurança de email para empresas',
-          link: 'https://gatefy.com/pt-br/'
-      },
-      {
-          img: 'assets/img/portfolio/mk.png',
-          name: 'MKBank',
-          description: 'Banco digital completo com tecnologias de ponta como blockchain.',
-          link: 'https://www.mkbank.com.br/mk-pt/'
-      },
-      {
-          img: 'assets/img/portfolio/vantage.png',
-          name: 'Vantage IoT',
-          description: 'Monitoramento de transportadores de minério evitando incêndios florestais catastróficos salvando muitas vidas.',
-          link: 'https://superior-ind.com/vantage/'
-      },
       
       {
-        img: 'assets/img/portfolio/pousadacma.png',
+        img: 'assets/img/new-portfolio/4.png',
         name: 'Pousada CMA',
-        description: 'Landing Page para pousada em São Paulo para atrair novos hóspedes',
+        description: 'O site da Pousada Campina do Monte Alegre agora está no topo das pesquisas do Google. Com design convidativo e informações detalhadas sobre acomodações e atividades locais, oferece uma plataforma atrativa para potenciais hóspedes. Destacando-se como a primeira escolha para uma estadia relaxante e autêntica na região.',
         link: 'https://pousadacma.com.br/'
       },
       {
-        img: 'assets/img/portfolio/santaostra.png',
+        img: 'assets/img/new-portfolio/7.png',
         name: 'Santa Ostra',
-        description: 'Landing Page para empresa de venda e transporte de frutos do mar para atrair novos clientes',
+        description: 'O site institucional da Santa Ostra não só oferece informações abrangentes sobre seus serviços de venda e transporte de frutos do mar, mas também se destaca por seu design bonito e moderno. Com uma interface atraente e fácil de usar, os visitantes podem explorar os serviços da empresa de forma intuitiva e agradável. A Santa Ostra combina funcionalidade e estética para proporcionar uma experiência online envolvente e satisfatória. A Santa Ostra tem se tornado uma grande parceira, estamos desenvolvendo um ERP completo para auxiliar na logística do negócio.',
         link: 'https://santaostra.com.br/'
       },
+      {
+        img: 'assets/img/new-portfolio/6.png',
+        name: 'Eagles Store',
+        description: 'A Eagles Store, agora ocupa o primeiro lugar nas pesquisas do Google na região para diversos termos relacionados. Com um catálogo diversificado e interface amigável, oferece uma experiência de compra única para os praticantes de judô locais, consolidando-se como a escolha número um para equipamentos de qualidade na área. O site conta também com um painel administrativo intuitivo para gerir os produtos e o conteúdo do site.',
+        link: 'https://www.eaglestore.net.br/'
+    },
       
   ];
 
   var portWrapper = document.getElementById('portfolio-wrapper');
+  
+  let colState = 0; // Inicialize o estado das colunas
 
-  for (data of portData) {
-    portWrapper.innerHTML += `
+for (data of portData) {
+    const order1 = colState === 0 ? 'order-md-1' : 'order-md-2';
+    const order2 = colState === 0 ? 'order-md-2' : 'order-md-1';
 
-        <div class="col-lg-6 col-md-6 portfolio-item filter-app  uianimated delay-200" style="cursor: context-menu;">
-          <div class="portfolio-wrap">
-
-            <div class="container">
-            <div class="laptop">
-                <div class="laptop__screen">
-                    <img src="${data.img}" width="1600" height="1000" alt="Screen">
-                </div>
-                <div class="laptop__bottom">
-                    <div class="laptop__under"></div>
-                </div>
-                <div class="laptop__shadow"></div>
-            </div>
+    const imageDiv = `
+        <div class="col-lg-6 col-md-6 portfolio-item filter-app  uianimated delay-200 ${order1}">
+            <img src="${data.img}" class="rounded" width="100%" alt="Screen">
         </div>
-            <div class="portfolio-info">
-              <h4>${data.name}</h4>
-              <p class="m-lg-4 m-2">${data.description}</p>
-              <div class="portfolio-links">
-                <a style="font-size: 15px;" class="mt-2 p-2 btn btn-transparent border" href="${data.link}" target="blank" title="Portfolio Details"><i class="bx bx-link"></i> Visitar</a>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-      
-    
     `;
-  }
+    const textDiv = `
+        <div class="col-lg-6 p-lg-4 col-md-6 m-0 p-0 text-sm-center text-md-start uianimated delay-200 row align-items-center ${order2}">
+            <div>
+              <h2 class="my-2 ux-title">${data.name}</h2>
+              <p class="my-2 portfolio-description">${data.description}</p>
+              <a class="p-2 my-4 px-4 btn btn-dark border-success" href="${data.link}" target="blank" title="Portfolio Details"><i class="bx bx-link"></i> Visitar</a>
+            </div>
+        </div>
+    `;
+
+    portWrapper.innerHTML += `
+        <div class="row mb-5">
+            ${imageDiv}
+            ${textDiv}
+        </div>
+    `;
+
+    colState = 1 - colState;
+}
+
 
 
 
