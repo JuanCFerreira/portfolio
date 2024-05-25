@@ -249,10 +249,28 @@ window.addEventListener('load', onPageload);
 function portfolio(){
   var portData = [
       {
+        img: 'assets/img/new-portfolio/9.png',
+        name: 'Vantage IoT',
+        description: 'Software de IoT e inteligência artificial que mede a temperatura, carga e rotação de cada rolo em transportadores de minério. Esses rolos inteligentes permitem que os transportadores sejam operados e mantidos como ativos críticos na planta, prevenindo diversos acidentes e incêndios, além de otimizar o desempenho e facilitar a manutenção preditiva.',
+        link: 'https://superior-ind.com/vantage/'
+      },
+      {
+        img: 'assets/img/new-portfolio/10.png',
+        name: 'PIPRDC',
+        description: 'Software de inteligência artificial capaz de prever o desenvolvimento de diversas doenças crônicas. Utilizando dados clínicos e laboratoriais, o sistema analisa padrões e indicadores de saúde para fornecer previsões precisas, ajudando a antecipar e prevenir condições como alguns tipos de câncer, diabetes, doenças cardíacas e outras enfermidades crônicas.',
+        link: 'https://periodicos.ufba.br/index.php/RFD/article/view/60077'
+      },
+      {
         img: 'assets/img/new-portfolio/1.png',
         name: 'Passagens e Milhas',
-        description: 'Esta Landing Page foi cuidadosamente projetada para oferecer uma experiência envolvente e informativa aos visitantes, representando a agência de assessoria de viagens de forma excepcional. Com um design moderno e intuitivo, o objetivo principal era atrair novos clientes ao destacar os serviços e benefícios exclusivos oferecidos pela agência.',
+        description: 'Este website foi cuidadosamente projetado para oferecer uma experiência envolvente e informativa aos visitantes, representando a agência de assessoria de viagens de forma excepcional. Com um design moderno e intuitivo, o objetivo principal era atrair novos clientes ao destacar os serviços e benefícios exclusivos oferecidos pela agência.',
         link: 'https://passagensemilhas.com.br/'
+      },
+      {
+        img: 'assets/img/new-portfolio/11.png',
+        name: 'Gatefy',
+        description: 'Gateway de e-mail baseado em inteligência artificial para segurança de e-mails empresariais. Capaz de processar milhões de e-mails, o sistema previne vazamentos de dados e bloqueia ataques avançados, como phishing, BEC (Business Email Compromise), DDoS, malware, ransomware e spam.',
+        link: 'https://gatefy.com/pt-br/'
       },
       {
           img: 'assets/img/new-portfolio/3.png',
@@ -280,12 +298,6 @@ function portfolio(){
         link: 'https://www.eaglestore.net.br/dojo'
       },
       
-      {
-        img: 'assets/img/new-portfolio/4.png',
-        name: 'Pousada CMA',
-        description: 'O site da Pousada Campina do Monte Alegre agora está no topo das pesquisas do Google. Com design convidativo e informações detalhadas sobre acomodações e atividades locais, oferece uma plataforma atrativa para potenciais hóspedes. Destacando-se como a primeira escolha para uma estadia relaxante e autêntica na região.',
-        link: 'https://pousadacma.com.br/'
-      },
       {
         img: 'assets/img/new-portfolio/7.png',
         name: 'Santa Ostra',
