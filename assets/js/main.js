@@ -248,6 +248,25 @@ window.addEventListener('load', onPageload);
 
 function portfolio(){
   var portData = [
+    
+    {
+      img: 'assets/img/new-portfolio/1.png',
+      name: 'Passagens e Milhas',
+      description: 'Este website foi cuidadosamente projetado para oferecer uma experiência envolvente e informativa aos visitantes, representando a agência de assessoria de viagens de forma excepcional. Com um design moderno e intuitivo, o objetivo principal era atrair novos clientes ao destacar os serviços e benefícios exclusivos oferecidos pela agência.',
+      link: 'https://passagensemilhas.com.br/'
+    },
+    {
+      img: 'assets/img/new-portfolio/7.png',
+      name: 'Santa Ostra',
+      description: 'O site institucional da Santa Ostra não só oferece informações abrangentes sobre seus serviços de venda e transporte de frutos do mar, mas também se destaca por seu design bonito e moderno. Com uma interface atraente e fácil de usar, os visitantes podem explorar os serviços da empresa de forma intuitiva e agradável. A Santa Ostra combina funcionalidade e estética para proporcionar uma experiência online envolvente e satisfatória. A Santa Ostra tem se tornado uma grande parceira, estamos desenvolvendo um ERP completo para auxiliar na logística do negócio.',
+      link: 'https://santaostra.com.br/'
+    },
+    {
+      img: 'assets/img/new-portfolio/12.png',
+      name: 'Cosme Baterias',
+      description: 'Um site que reflete a expertise e a dedicação da Cosme Baterias no setor automotivo. Com mais de 20 anos de experiência, a empresa oferece produtos e serviços de alta qualidade. O layout foi projetado para oferecer uma navegação agradável e adaptável a diferentes dispositivos, garantindo uma experiência de usuário consistente. Implementamos técnicas avançadas de SEO, resultando em um rápido posicionamento no primeiro lugar do Google para palavras-chave relevantes, ampliando a visibilidade online da empresa.',
+      link: 'https://cosmebaterias.com/'
+    },
       {
         img: 'assets/img/new-portfolio/9.png',
         name: 'Vantage IoT',
@@ -260,12 +279,7 @@ function portfolio(){
         description: 'Software de inteligência artificial capaz de prever o desenvolvimento de diversas doenças crônicas. Utilizando dados clínicos e laboratoriais, o sistema analisa padrões e indicadores de saúde para fornecer previsões precisas, ajudando a antecipar e prevenir condições como alguns tipos de câncer, diabetes, doenças cardíacas e outras enfermidades crônicas.',
         link: 'https://periodicos.ufba.br/index.php/RFD/article/view/60077'
       },
-      {
-        img: 'assets/img/new-portfolio/1.png',
-        name: 'Passagens e Milhas',
-        description: 'Este website foi cuidadosamente projetado para oferecer uma experiência envolvente e informativa aos visitantes, representando a agência de assessoria de viagens de forma excepcional. Com um design moderno e intuitivo, o objetivo principal era atrair novos clientes ao destacar os serviços e benefícios exclusivos oferecidos pela agência.',
-        link: 'https://passagensemilhas.com.br/'
-      },
+      
       {
         img: 'assets/img/new-portfolio/11.png',
         name: 'Gatefy',
@@ -278,38 +292,33 @@ function portfolio(){
           description: 'Utilizando uma abordagem de design contemporâneo, o site foi meticulosamente projetado para cativar o público-alvo, oferecendo uma experiência de navegação intuitiva e envolvente. Com uma combinação de elementos visuais impactantes, layouts elegantes e uma paleta de cores vibrantes, o site transmite energia e vitalidade, refletindo fielmente a atmosfera estimulante da HLO Therapy.  O site conta também com um painel administrativo intuitivo para gerir os preços, horários e todo conteúdo do site',
           link: 'https://hlotherapy.com.br'
       },
-      {
-        img: 'assets/img/new-portfolio/8.png',
-        name: 'Pereira Advocacia',
-        description: 'Com design profissional e navegação simplificada, o site visa destacar a expertise da empresa e facilitar o acesso a serviços jurídicos. Além disso, apresenta um blog informativo, oferecendo insights jurídicos relevantes e atualizados. O site fortalece a presença online da Pereira Advocacia como referência no ramo jurídico, combinando conteúdo de qualidade com uma experiência de usuário envolvente.',
-        link: 'https://douglaspereira.adv.br'
-      },
-      {
-        img: 'assets/img/new-portfolio/5.png',
-        name: 'Mantoan Serviços',
-        description: 'O site destaca a experiência e a qualidade dos serviços oferecidos. Além disso, apresenta informações detalhadas sobre os serviços prestados e os padrões de segurança adotados. Este website reforça a reputação da Mantoan Serviços como líder no setor, oferecendo uma plataforma confiável para clientes em potencial.',
-        link: 'https://mantoanservicos.com.br/'
-      },
+      // {
+      //   img: 'assets/img/new-portfolio/8.png',
+      //   name: 'Pereira Advocacia',
+      //   description: 'Com design profissional e navegação simplificada, o site visa destacar a expertise da empresa e facilitar o acesso a serviços jurídicos. Além disso, apresenta um blog informativo, oferecendo insights jurídicos relevantes e atualizados. O site fortalece a presença online da Pereira Advocacia como referência no ramo jurídico, combinando conteúdo de qualidade com uma experiência de usuário envolvente.',
+      //   link: 'https://douglaspereira.adv.br'
+      // },
+      // {
+      //   img: 'assets/img/new-portfolio/5.png',
+      //   name: 'Mantoan Serviços',
+      //   description: 'O site destaca a experiência e a qualidade dos serviços oferecidos. Além disso, apresenta informações detalhadas sobre os serviços prestados e os padrões de segurança adotados. Este website reforça a reputação da Mantoan Serviços como líder no setor, oferecendo uma plataforma confiável para clientes em potencial.',
+      //   link: 'https://mantoanservicos.com.br/'
+      // },
       
-      {
-        img: 'assets/img/new-portfolio/2.png',
-        name: 'Fábrica de campeões',
-        description: 'Com design dinâmico e informações claras sobre horários e programas, o site visa atrair novos alunos destacando os benefícios do judô e o ambiente acolhedor do dojô. Uma ferramenta eficaz para impulsionar o crescimento e fortalecer a reputação da academia.  O site conta também com um painel administrativo intuitivo para gerir o conteúdo do site',
-        link: 'https://www.eaglestore.net.br/dojo'
-      },
+      // {
+      //   img: 'assets/img/new-portfolio/2.png',
+      //   name: 'Fábrica de campeões',
+      //   description: 'Com design dinâmico e informações claras sobre horários e programas, o site visa atrair novos alunos destacando os benefícios do judô e o ambiente acolhedor do dojô. Uma ferramenta eficaz para impulsionar o crescimento e fortalecer a reputação da academia.  O site conta também com um painel administrativo intuitivo para gerir o conteúdo do site',
+      //   link: 'https://www.eaglestore.net.br/dojo'
+      // },
       
-      {
-        img: 'assets/img/new-portfolio/7.png',
-        name: 'Santa Ostra',
-        description: 'O site institucional da Santa Ostra não só oferece informações abrangentes sobre seus serviços de venda e transporte de frutos do mar, mas também se destaca por seu design bonito e moderno. Com uma interface atraente e fácil de usar, os visitantes podem explorar os serviços da empresa de forma intuitiva e agradável. A Santa Ostra combina funcionalidade e estética para proporcionar uma experiência online envolvente e satisfatória. A Santa Ostra tem se tornado uma grande parceira, estamos desenvolvendo um ERP completo para auxiliar na logística do negócio.',
-        link: 'https://santaostra.com.br/'
-      },
-      {
-        img: 'assets/img/new-portfolio/6.png',
-        name: 'Eagles Store',
-        description: 'A Eagles Store, agora ocupa o primeiro lugar nas pesquisas do Google na região para diversos termos relacionados. Com um catálogo diversificado e interface amigável, oferece uma experiência de compra única para os praticantes de judô locais, consolidando-se como a escolha número um para equipamentos de qualidade na área. O site conta também com um painel administrativo intuitivo para gerir os produtos e o conteúdo do site.',
-        link: 'https://www.eaglestore.net.br/'
-    },
+      
+    //   {
+    //     img: 'assets/img/new-portfolio/6.png',
+    //     name: 'Eagles Store',
+    //     description: 'A Eagles Store, agora ocupa o primeiro lugar nas pesquisas do Google na região para diversos termos relacionados. Com um catálogo diversificado e interface amigável, oferece uma experiência de compra única para os praticantes de judô locais, consolidando-se como a escolha número um para equipamentos de qualidade na área. O site conta também com um painel administrativo intuitivo para gerir os produtos e o conteúdo do site.',
+    //     link: 'https://www.eaglestore.net.br/'
+    // },
       
   ];
 
